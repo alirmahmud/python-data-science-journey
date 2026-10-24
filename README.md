@@ -46,7 +46,7 @@ notebooks/
 
 **Week 1: First steps**
 - [x] Day 1: Colab setup, first program, `print`, comments
-- [ ] Day 2: Variables and data types (int, float, str, bool)
+- [x] Day 2: Variables and data types (int, float, str, bool)
 - [ ] Day 3: Arithmetic and operators
 - [ ] Day 4: Strings: indexing, slicing, methods, f-strings
 - [ ] Day 5: User input and type conversion
@@ -124,3 +124,4 @@ notebooks/
 | Date | Day | What I learned | Stuck on |
 |------|-----|----------------|----------|
 | 2026-10-24 | 1 | Colab, `print()`, comments, strings vs numbers, reading a SyntaxError | GitHub save from Colab failed; used download/upload |
+| 2026-10-24 | 2 | Variables, int/float/str/bool, `type()`, `str()`/`int()`/`float()` conversion | Ex 2.4: converted the literal `100` instead of the variable `total` |
