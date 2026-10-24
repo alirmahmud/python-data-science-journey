@@ -99,26 +99,33 @@ notebooks/
 - [ ] Week 9 (Days 64–70): Operations, missing data, hierarchical indexing
 - [ ] Week 10 (Days 71–77): Concat, merge, join
 - [ ] Week 11 (Days 78–84): GroupBy, pivot tables, string operations
-- [ ] Week 12 (Days 85–91): Time series, `eval()` / `query()` · mini project on a membership/churn-style dataset
+- [ ] Week 12 (Days 85–91): Time series, `eval()` / `query()` · **Titanic Part 1:** load, clean, explore (missing ages, survival by class/sex)
 
 ## Phase 4 — Matplotlib & Seaborn (3 weeks) · Handbook Ch. 4
 - [ ] Week 13 (Days 92–98): Line, scatter, error bars, histograms
 - [ ] Week 14 (Days 99–105): Legends, colorbars, subplots, text and annotation
-- [ ] Week 15 (Days 106–112): Customization, Seaborn · checkpoint: recreate a work-style dashboard chart
+- [ ] Week 15 (Days 106–112): Customization, Seaborn · **Titanic Part 2:** visual story of who survived
 
 ## Phase 5 — Machine Learning (6 weeks) · Handbook Ch. 5
 - [ ] Week 16 (Days 113–119): What is ML, intro to scikit-learn
 - [ ] Week 17 (Days 120–126): Hyperparameters and model validation, feature engineering
 - [ ] Week 18 (Days 127–133): Naive Bayes, linear regression
-- [ ] Week 19 (Days 134–140): Support vector machines, decision trees and random forests
+- [ ] Week 19 (Days 134–140): Support vector machines, decision trees and random forests · **Titanic Part 3:** survival prediction model + finished write-up (portfolio project #1)
 - [ ] Week 20 (Days 141–147): PCA, manifold learning
 - [ ] Week 21 (Days 148–154): k-means, Gaussian mixtures, kernel density · checkpoint quiz
 
-## Phase 6 — Capstone (2 weeks)
-- [ ] Week 22 (Days 155–161): Pick dataset, clean, explore, visualize
-- [ ] Week 23 (Days 162–168): Build model (e.g., churn prediction), evaluate, write up results
+## Phase 6 — Capstone: Customer Churn Prediction (2 weeks) · portfolio project #2
+Dataset: public Telco Customer Churn (never use real employer data in this repo).
+- [ ] Week 22 (Days 155–161): Clean, explore, visualize churn drivers
+- [ ] Week 23 (Days 162–168): Build and evaluate churn model, write up business recommendations
 
 ---
+
+## Portfolio Projects
+| # | Project | Folder | Status |
+|---|---|---|---|
+| 1 | Titanic Survival Analysis & Prediction | `projects/titanic/` | Planned (Weeks 12, 15, 19) |
+| 2 | Customer Churn Prediction (capstone) | `projects/churn/` | Planned (Weeks 22–23) |
 
 ## Progress Log
 | Date | Day | What I learned | Stuck on |
