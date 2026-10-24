@@ -8,10 +8,25 @@ Pace: 1 hour per day. Tick a box `[x]` when a day is done and commit the change.
 - Python Data Science Handbook (Phases 1–5): https://github.com/jakevdp/PythonDataScienceHandbook
 
 **Daily routine (60 min)**
-1. 5 min: review yesterday's notebook
-2. 35 min: lesson, typing every line of code yourself
-3. 15 min: exercises
-4. 5 min: save notebook to GitHub, tick the box, write one line in the log
+1. **START:** open cmd in the repo folder and run `git pull`
+2. 5 min: review yesterday's notebook
+3. 35 min: lesson, typing every line of code yourself
+4. 15 min: exercises
+5. **END:** save to GitHub (commands below), then tell Claude "done"
+
+**Git cheat sheet**
+```cmd
+cd %USERPROFILE%\Documents\python-data-science-journey
+
+:: START of every session
+git pull
+
+:: END of every session (change the day number)
+git add .
+git commit -m "Day 2"
+git push
+```
+Think of it as: **pull** = download my latest, **add** = pick what to save, **commit** = label the save, **push** = upload it.
 
 **Folder layout**
 ```
