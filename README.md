@@ -30,7 +30,7 @@ notebooks/
 ## Phase 0 — Python Basics (4 weeks)
 
 **Week 1: First steps**
-- [ ] Day 1: Colab setup, first program, `print`, comments
+- [x] Day 1: Colab setup, first program, `print`, comments
 - [ ] Day 2: Variables and data types (int, float, str, bool)
 - [ ] Day 3: Arithmetic and operators
 - [ ] Day 4: Strings: indexing, slicing, methods, f-strings
@@ -108,4 +108,4 @@ notebooks/
 ## Progress Log
 | Date | Day | What I learned | Stuck on |
 |------|-----|----------------|----------|
-|      |     |                |          |
+| 2026-10-24 | 1 | Colab, `print()`, comments, strings vs numbers, reading a SyntaxError | GitHub save from Colab failed; used download/upload |
