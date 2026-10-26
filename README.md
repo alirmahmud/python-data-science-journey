@@ -48,7 +48,7 @@ notebooks/
 - [x] Day 1: Colab setup, first program, `print`, comments
 - [x] Day 2: Variables and data types (int, float, str, bool)
 - [x] Day 3: Arithmetic and operators
-- [ ] Day 4: Strings: indexing, slicing, methods, f-strings
+- [x] Day 4: Strings: indexing, slicing, methods, f-strings
 - [ ] Day 5: User input and type conversion
 - [ ] Day 6: Practice set 1
 - [ ] Day 7: Review / catch-up
@@ -133,3 +133,4 @@ Dataset: public Telco Customer Churn (never use real employer data in this repo)
 | 2026-10-24 | 1 | Colab, `print()`, comments, strings vs numbers, reading a SyntaxError | GitHub save from Colab failed; used download/upload |
 | 2026-10-24 | 2 | Variables, int/float/str/bool, `type()`, `str()`/`int()`/`float()` conversion | Ex 2.4: converted the literal `100` instead of the variable `total` |
 | 2026-10-24 | 3 | Operators `+ - * / // % **`, order of operations, `round()`, `+=`/`-=`/`*=`, `% 2` for even/odd | Ex 3.6: reset `balance` in each cell instead of chaining the updates |
+| 2026-10-25 | 4 | f-strings, `:,` and `:.2f` formatting, indexing, slicing, `.strip()/.lower()/.split()`, `in` | `:2f` vs `:.2f` (missing dot); initials printed on 3 lines instead of joined |
