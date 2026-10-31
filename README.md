@@ -50,8 +50,8 @@ notebooks/
 - [x] Day 3: Arithmetic and operators
 - [x] Day 4: Strings: indexing, slicing, methods, f-strings
 - [x] Day 5: User input and type conversion
-- [ ] Day 6: Practice set 1
-- [ ] Day 7: Review / catch-up
+- [x] Day 6: Practice set 1
+- [x] Day 7: Review / catch-up
 
 **Week 2: Collections**
 - [ ] Day 8: Lists
@@ -135,3 +135,4 @@ Dataset: public Telco Customer Churn (never use real employer data in this repo)
 | 2026-10-24 | 3 | Operators `+ - * / // % **`, order of operations, `round()`, `+=`/`-=`/`*=`, `% 2` for even/odd | Ex 3.6: reset `balance` in each cell instead of chaining the updates |
 | 2026-10-25 | 4 | f-strings, `:,` and `:.2f` formatting, indexing, slicing, `.strip()/.lower()/.split()`, `in` | `:2f` vs `:.2f` (missing dot); initials printed on 3 lines instead of joined |
 | 2026-10-27 | 5 | `input()`, int/float/bool conversion, `:,.2f`, ValueError | 5.1 forgot int() and doubling; 5.3 used a variable from an old run (hidden state) |
+| 2026-10-31 | 6–7 | Week 1 practice set: report formatting, input→int, parsing IDs, initials, debugging. Clean Restart/Run All | #3 used fragile slice instead of `int()` on the split part |
