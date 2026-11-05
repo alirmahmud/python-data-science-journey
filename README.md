@@ -42,6 +42,21 @@ notebooks/
 
 ---
 
+## Schedule (re-baselined 2026-11-05)
+Rule of thumb: **Day N is due on Oct 28 + N days** (Day 9 = Nov 6).
+
+| Phase | Days | Target dates |
+|---|---|---|
+| 0. Python Basics | 1–28 | → Nov 25, 2026 |
+| 1. IPython & Jupyter | 29–35 | Nov 26 – Dec 2 |
+| 2. NumPy | 36–56 | Dec 3 – Dec 23 |
+| 3. Pandas + Titanic Part 1 | 57–91 | Dec 24 – Jan 27, 2027 |
+| 4. Matplotlib + Titanic Part 2 | 92–112 | Jan 28 – Feb 17 |
+| 5. ML + Titanic Part 3 | 113–154 | Feb 18 – Mar 31 |
+| 6. Churn capstone | 155–168 | Apr 1 – **Apr 14, 2027** |
+
+---
+
 ## Phase 0 — Python Basics (4 weeks)
 
 **Week 1: First steps**
