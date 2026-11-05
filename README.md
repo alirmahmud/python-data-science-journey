@@ -54,7 +54,7 @@ notebooks/
 - [x] Day 7: Review / catch-up
 
 **Week 2: Collections**
-- [ ] Day 8: Lists
+- [x] Day 8: Lists
 - [ ] Day 9: Tuples and sets
 - [ ] Day 10: Dictionaries
 - [ ] Day 11: Nested data structures
@@ -136,3 +136,4 @@ Dataset: public Telco Customer Churn (never use real employer data in this repo)
 | 2026-10-25 | 4 | f-strings, `:,` and `:.2f` formatting, indexing, slicing, `.strip()/.lower()/.split()`, `in` | `:2f` vs `:.2f` (missing dot); initials printed on 3 lines instead of joined |
 | 2026-10-27 | 5 | `input()`, int/float/bool conversion, `:,.2f`, ValueError | 5.1 forgot int() and doubling; 5.3 used a variable from an old run (hidden state) |
 | 2026-10-31 | 6–7 | Week 1 practice set: report formatting, input→int, parsing IDs, initials, debugging. Clean Restart/Run All | #3 used fragile slice instead of `int()` on the split part |
+| 2026-11-05 | 8 | Lists: indexing, slicing, append/insert/remove/pop, sum/min/max/len, sorted vs .sort(), split/join | `x = print(...)` stores None; slice off-by-one in #5 flipped the conclusion; strip only cleaned outer spaces |
