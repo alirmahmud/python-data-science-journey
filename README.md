@@ -7,9 +7,11 @@ Pace: 1 hour per day. Tick a box `[x]` when a day is done and commit the change.
 - A Whirlwind Tour of Python (Phase 0): https://github.com/jakevdp/WhirlwindTourOfPython
 - Python Data Science Handbook (Phases 1–5): https://github.com/jakevdp/PythonDataScienceHandbook
 
+**Cheat sheet:** [`CHEATSHEET.md`](CHEATSHEET.md) has everything learned so far. Claude updates it when a day is done.
+
 **Daily routine (60 min)**
 1. **START:** open cmd in the repo folder and run `git pull`
-2. 5 min: review yesterday's notebook
+2. 5 min: read the cheat sheet, then tell Claude **"quiz me"** for a 5-minute practice quiz on everything so far
 3. 35 min: lesson, typing every line of code yourself
 4. 15 min: exercises
 5. **END:** save to GitHub (commands below), then tell Claude "done"
