@@ -1,7 +1,7 @@
 # Python Cheat Sheet
 
 Everything learned so far, in one page. Updated at the end of every finished day.
-**Last updated: Day 8 (Lists).** Next up: Day 9 (Tuples and sets).
+**Last updated: Day 9 (Tuples and sets).** Next up: Day 10 (Dictionaries).
 
 How to use it: read it before each session (5 min), then do the 5-minute practice quiz in chat.
 
@@ -124,6 +124,38 @@ sum(cancels) / len(cancels)             # average
 - **Find the month with the most cancels:** `months[cancels.index(max(cancels))]`
 - String ↔ list: `"a,b,c".split(",")` → list. `" | ".join(lst)` → string.
 
+## Day 9: tuples and sets
+**Tuple `( )`**: like a list, but it **can't be changed** after it's made.
+```python
+office = (44.98, -93.27)
+office[0]                  # 44.98  (indexing works like lists)
+lat, lon = office          # unpacking: one variable per item
+name, trade, years = ("Mike", "HVAC", 7)
+type((7))                  # int    (brackets alone are just math grouping)
+type((7,))                 # tuple  (the COMMA makes it a tuple)
+```
+- `office[0] = 45` → `TypeError`. A tuple has **no** `.append()` or `.add()`. To "change" one, make a new tuple, or use a list.
+
+**Set `{ }`**: **no duplicates**, **no order** (so no `[0]`).
+```python
+set([101, 102, 101])       # {101, 102}
+len(set(zips))             # how many DIFFERENT values
+s.add(104)                 # add (ignored if already there)
+s.discard(999)             # remove, no error if missing
+102 in s                   # True / False, very fast
+sorted(s)                  # back to a sorted LIST
+```
+| Two sets | Means | Retention use |
+|---|---|---|
+| `jan & feb` | in both | stayed |
+| `jan \| feb` | in either | everyone |
+| `jan - feb` | in Jan, not Feb | **churned** |
+| `feb - jan` | in Feb, not Jan | **new** |
+
+- Churn rate from sets: `len(q1 - q2) / len(q1) * 100`
+- Empty set is `set()`. `{}` is an empty **dictionary**.
+- Unique sorted text: `" | ".join(sorted(set(tags.split(","))))` (split → set → sorted → join).
+
 ---
 
 ## Traps you've hit (read these twice)
@@ -136,7 +168,9 @@ sum(cancels) / len(cancels)             # average
 4. **`int()` chops, `round()` rounds**, and `round(2.5)` = 2.
 5. **`input()` gives text.** Wrap it in `int()` or `float()` before math.
 6. **`bool("False")` is True.** Only empty or zero values are False.
-7. **Variable name typos** (`notes` vs `note`, `cancellations` vs `cancels`) cause `NameError`.
+7. **Tuples can't be changed at all.** There is no `tech.add(8)` or `tech[2] = 8`. Build a new tuple or use a list.
+8. **Cells with errors stop "Run All".** Comment out (`#`) any line you ran only to see the error.
+9. **Variable name typos** (`notes` vs `note`, `cancellations` vs `cancels`) cause `NameError`.
 
 ---
 
