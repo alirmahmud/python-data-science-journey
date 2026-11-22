@@ -140,10 +140,18 @@ sum(cancels) / len(cancels)             # average
 
 ---
 
-## Git (every session)
-```cmd
-git pull                     :: START
-git add .                    :: END
-git commit -m "Day 9"
-git push
-```
+## Session steps (if you forget how)
+**Start**
+1. Press the Windows key, type `cmd`, press Enter.
+2. `cd %USERPROFILE%\Documents\python-data-science-journey`
+3. `git pull`
+4. `code .` (opens VS Code in this folder). If that fails: open VS Code, File → Open Folder → pick the folder.
+5. In VS Code: left panel → `notebooks` → `phase0-python-basics` → right-click → New File → `dayNN_topic.ipynb`.
+6. Top right of the notebook: **Select Kernel** → Python. Run a cell with **Shift + Enter**.
+
+**End**
+1. In the notebook: **Restart**, then **Run All** (buttons at the top). Every cell should run.
+2. **Ctrl + S** to save.
+3. Back in cmd: `git add .` → `git commit -m "Day N"` → `git push`
+
+Think of it as: **pull** = download my latest, **add** = pick what to save, **commit** = label the save, **push** = upload it.
