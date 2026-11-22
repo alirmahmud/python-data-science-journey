@@ -72,7 +72,7 @@ Rule of thumb: **Day N is due on Oct 28 + N days** (Day 9 = Nov 6).
 
 **Week 2: Collections**
 - [x] Day 8: Lists
-- [ ] Day 9: Tuples and sets
+- [x] Day 9: Tuples and sets
 - [ ] Day 10: Dictionaries
 - [ ] Day 11: Nested data structures
 - [ ] Day 12: Comparison and boolean logic
